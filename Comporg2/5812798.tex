@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color,pxfonts,fix-cm}
+\usepackage{latexsym}
+\usepackage[mathletters]{ucs}
+\DeclareUnicodeCharacter{46}{\textperiodcentered}
+\DeclareUnicodeCharacter{58}{$\colon$}
+\DeclareUnicodeCharacter{8217}{\textquoteright}
+\DeclareUnicodeCharacter{32}{$\ $}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{pict2e}
+\usepackage{wasysym}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\pagestyle{empty}
+\usepackage[margin=0in,paperwidth=595pt,paperheight=842pt]{geometry}
+\begin{document}
+\definecolor{color_283006}{rgb}{1,1,1}
+\definecolor{color_98308}{rgb}{0.270588,0.270588,0.270588}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\begin{scope}
+\clip
+(39pt, -674.0624pt) -- (526pt, -674.0624pt)
+ -- (526pt, -674.0624pt)
+ -- (526pt, -44pt)
+ -- (526pt, -44pt)
+ -- (39pt, -44pt) -- cycle
+;
+\filldraw[color_283006][nonzero rule]
+(39pt, -44pt) -- (526pt, -44pt)
+ -- (526pt, -44pt)
+ -- (526pt, -674.0624pt)
+ -- (526pt, -674.0624pt)
+ -- (39pt, -674.0624pt) -- cycle
+;
+\end{scope}
+\begin{scope}
+\clip
+(40.95976pt, -674.0624pt) -- (524.0403pt, -674.0624pt)
+ -- (524.0403pt, -674.0624pt)
+ -- (524.0403pt, -44pt)
+ -- (524.0403pt, -44pt)
+ -- (40.95976pt, -44pt) -- cycle
+;
+\end{scope}
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(61.53722,-59.67804){\fontsize{16.65795}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Group members: }
+\put(61.53722,-75.35614){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Uğurcan Kurtuluş 150200082}
+\put(61.53722,-91.03418){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Ömer Yıldız 150200060 (Group representative)}
+\put(61.53722,-106.7123){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Onur Özdağ 150200716}
+\put(61.53722,-138.0684){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}List of control units:}
+\put(61.53722,-153.7465){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part1 we sent funsel and enable inputs to the register function and observe }
+\put(61.53722,-169.4246){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}how to output changes according to them.}
+\put(61.53722,-200.7807){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part2a, for the clear test we sent, Enable input as 1,  LH input as 0 and }
+\put(61.53722,-216.4587){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}funsel 11 and observed that 16 bit IR register functions’ output is cleared.}
+\put(61.53722,-232.1368){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Also we tested the incrementation and decrementations by changing funsel and }
+\put(61.53722,-247.8149){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}by changing LH input we checked if input puts in the right place of output or }
+\put(61.53722,-263.493){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}not. }
+\put(61.53722,-294.8491){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part2b, we used the same funsel in part2a and changed it to observe if it is }
+\put(61.53722,-310.5272){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}increments or decrements, we also changed the regsel and tsel inputs to }
+\put(61.53722,-326.2052){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}enable different registers. }
+\put(61.53722,-357.5614){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part2c,  we changed the o1sel and o2sel to choose different registers and }
+\put(61.53722,-373.2394){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}used the same funsel to change the output. }
+\put(61.53722,-404.5956){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part3, we first used a 4:16 decoder to perform 16 different operations those }
+\put(61.53722,-420.2737){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}that defined in pdf.  We changed the A, B inputs and operations and observed }
+\put(61.53722,-435.9517){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}the flags that are on. }
+\put(61.53722,-467.3079){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}For part4, we implemented the circuit that’s In the pdf by connecting the }
+\put(61.53722,-482.9859){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}previous parts’ modules and memory with using the appropriate multiplexers. }
+\put(61.53722,-498.664){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}We tried to observe how the system changes by changing the inputs. }
+\put(61.53722,-545.6982){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Distribution:}
+\put(61.53722,-561.3763){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}Onur attended the meetings but he couldn’t help much because he didn’t know }
+\put(61.53722,-577.0543){\fontsize{11.75855}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_98308}much Verilog. In general Ömer and I wrote the code.  }
+\end{picture}
+\end{document}
